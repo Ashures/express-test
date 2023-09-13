@@ -1,6 +1,6 @@
 import express from 'express';
 import root from './routers/index.js';
-import about from './routers/about.js';
+import about from './routers/about/index.js';
 
 const app = express();
 const port = 3000;
